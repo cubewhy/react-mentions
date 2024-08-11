@@ -60,7 +60,7 @@ const applyChangeToValue = (
 
       // find start of diff
       spliceStart = 0
-      while (plainTextValue[spliceStart] === controlPlainTextValue[spliceStart])
+      while (plainTextValue[spliceStart] === oldPlainTextValue[spliceStart])
         spliceStart++
 
       // extract auto-corrected insertion
